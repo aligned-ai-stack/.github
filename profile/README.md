@@ -4,15 +4,15 @@ Research on how people form beliefs about AI, decide when to rely on it, and res
 
 I am [Shreyan Biswas](https://github.com/shreyan2020), a PhD researcher in Human-Centered AI at TU Delft. This organization brings together study software, analysis, and experimental tools from my research and collaborations.
 
-## Research direction
+## From capability to oversight
 
-AI systems can perform differently across tasks, languages, and situations. People have to decide what to expect from the system, what to check, and when to act on its advice. Those decisions are shaped by their previous experience with AI and by how the interface presents evidence and errors.
+AI systems perform differently across tasks, languages, and situations. People encounter only part of that performance and have to decide what to expect, what to check, and when to act on the system's advice.
 
-The question connecting this work is: **How can we support informed reliance on AI when its performance is uneven and people's beliefs about it carry across interactions?**
+The question connecting my PhD research is: **How do people form beliefs about AI capabilities, use those beliefs when deciding whether to rely on AI, and evaluate its advice when performance is uncertain or uneven?**
 
-The working argument of my thesis is that **human oversight needs to be evaluated across a sequence of interactions**. Experience in one context can shape reliance in another. Reported beliefs and reliance decisions capture different parts of that process. An interface can improve the accuracy of a decision without reliably improving the reasons a person gives for it.
+My working thesis argument is that effective oversight requires attention to the connections between **evidence about AI performance, people's beliefs, their reliance decisions, and opportunities to check or challenge an outcome**. Problems at each connection can limit oversight. The studies examine different parts of this account; the synthesis brings them together as a framework for evaluating human–AI interaction.
 
-This motivates evaluating assistance through connected measures of experience, reported belief, reliance, and decision quality, including when AI advice is wrong. The design aim is to help people assess, question, and correct AI assistance.
+The belief-updating and delegation studies form the empirical center. The multilingual study establishes a concrete problem of reliance carrying across contexts. The virtual-interviewer study situates interaction in a social setting. The content-reporting study examines how an interface supports judgment under AI error within a platform-governance workflow.
 
 ## Published studies
 
@@ -24,7 +24,20 @@ This motivates evaluating assistance through connected measures of experience, r
 | [The Belief Update Gate](https://doi.org/10.1145/3834580.3838740) · HCOMP 2026 | Reanalyzes the same trials by separating whether a reported belief changes from how much it changes. An unchanged report alone cannot establish that no learning occurred. |
 | [AI at the Front Lines of Platform Governance](https://doi.org/10.1145/3805689.3812301) · FAccT 2026 | Compares forms of AI support for illegal-content reporting with 450 participants. Evaluative assistance improved provision-level accuracy under error, but neither assistance form reliably improved written explanations. |
 
-Together, these studies connect **experience, belief, reliance, and the quality of the resulting decision**. They motivate evaluating an interface across repeated use, measuring people's beliefs separately from their actions, and checking whether assistance helps when the AI makes mistakes.
+## A working framework for oversight
+
+The Human-Aligned AI Stack is a proposed framework for connecting the research to design and evaluation questions:
+
+| Part of the framework | Question to examine |
+| --- | --- |
+| Capability evidence | What successes, failures, explanations, and task boundaries can a person observe? |
+| Beliefs and revision | What does the person expect, what carries across contexts, and what changes after feedback? |
+| Reliance and action | When does the person accept advice, check it, or act independently? |
+| Support for oversight | What does the interface let the person inspect, report, or challenge, and how well does that support the task? |
+
+These connections recur over time as actions produce further experience and feedback. The framework is a thesis synthesis, with different parts supported by different studies. It also identifies open questions about intervention and institutional follow-through.
+
+The evaluation implications are concrete: report performance by context, measure beliefs and actions separately, distinguish unchanged belief reports from measured updating, and assess both decision accuracy and the quality of people's reasons when advice can be wrong.
 
 The [Beyond the Traceback](https://arxiv.org/abs/2608.20896) poster (HCOMP 2026) extends the design questions to adaptive explanations of programming errors.
 
