@@ -10,12 +10,15 @@ AI systems can perform differently across tasks, languages, and situations. Peop
 
 The question connecting this work is: **How can we support informed reliance on AI when its performance is uneven and people's beliefs about it carry across interactions?**
 
-My thesis work examines this through behavioral experiments, models of reported belief change, and interfaces for evaluating AI advice. The longer-term aim is to use those findings to design assistance that people can assess, question, and correct.
+The working argument of my thesis is that **human oversight needs to be evaluated across a sequence of interactions**. Experience in one context can shape reliance in another. Reported beliefs and reliance decisions capture different parts of that process. An interface can improve the accuracy of a decision without reliably improving the reasons a person gives for it.
+
+This motivates evaluating assistance through connected measures of experience, reported belief, reliance, and decision quality, including when AI advice is wrong. The design aim is to help people assess, question, and correct AI assistance.
 
 ## Published studies
 
 | Study | What it contributes |
 | --- | --- |
+| [“Hi, I’m Molly, Your Virtual Interviewer!”](https://doi.org/10.1609/hcomp.v12i1.31596) · HCOMP 2024 | Examines how virtual interviewer identity and participant characteristics relate to interview experience. It situates perceptions of AI within a social context. |
 | [Mind the Gap!](https://doi.org/10.1145/3706598.3713201) · CHI 2025 | Tests whether experience with an LLM in one language affects reliance in another. Lower performance in one language reduced subsequent reliance across languages. |
 | [Belief Updating and Delegation](https://doi.org/10.1145/3772318.3790775) · CHI 2026 | Follows beliefs and reliance across three tasks in a preregistered study with 240 participants and 7,200 trials. Expectations carry across tasks, and subjective beliefs about AI accuracy strongly predict delegation. |
 | [The Belief Update Gate](https://doi.org/10.1145/3834580.3838740) · HCOMP 2026 | Reanalyzes the same trials by separating whether a reported belief changes from how much it changes. An unchanged report alone cannot establish that no learning occurred. |
@@ -23,7 +26,7 @@ My thesis work examines this through behavioral experiments, models of reported 
 
 Together, these studies connect **experience, belief, reliance, and the quality of the resulting decision**. They motivate evaluating an interface across repeated use, measuring people's beliefs separately from their actions, and checking whether assistance helps when the AI makes mistakes.
 
-Related work examines [virtual interviewer identity and candidate experience](https://doi.org/10.1609/hcomp.v12i1.31596) (HCOMP 2024) and [adaptive explanations of programming errors](https://arxiv.org/abs/2608.20896) (HCOMP 2026 poster). Earlier work on [CHIME](https://github.com/shreyan2020/chime) (HCOMP 2022) studies causal model explanations with human input.
+The [Beyond the Traceback](https://arxiv.org/abs/2608.20896) poster (HCOMP 2026) extends the design questions to adaptive explanations of programming errors.
 
 ## Public prototypes
 
